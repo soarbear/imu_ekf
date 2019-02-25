@@ -1,1 +1,1 @@
-# imu_ekf
+# IMU simulation with extended kalman filter
