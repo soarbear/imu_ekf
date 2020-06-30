@@ -1,5 +1,5 @@
 # Description
-6-axis(acceleration sensor+ gyro sensor) IMU simulation with extended kalman filter.
+6-axis IMU = 3-axis acceleration sensor + 3-axis gyro sensor simulation with EKF = Extended Kalman Filter.
 
 # Demo
 https://youtu.be/6_vculzcCeM
