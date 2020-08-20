@@ -129,7 +129,7 @@ def animate(i, ekf, period_ms):
     # scatter estimation x
     P3.append(x_hat[0:2, :])
     a, b = np.array(np.concatenate(P3, axis=1))
-    ax1.plot(a, b, c=col_x_hat, linewidth=1.0, linestyle='-', label='Predicted')
+    ax1.plot(a, b, c=col_x_hat, linewidth=1.0, linestyle='-', label='Estimation')
     ax1.scatter(x_hat[0], x_hat[1], c=col_x_hat, marker='o', alpha=0.5)
 
     # create error ellipse
@@ -158,5 +158,6 @@ if __name__ == '__main__':
     ekf = extKalmanFilter(period_ms)
     ani = animation.FuncAnimation(fig, animate, frames=frame_cnt, fargs=(ekf, period_ms), blit=False, interval=period_ms, repeat=False)
     ani.save('imu_by_ekf.mp4', bitrate=5000)
+    #ani.save('imu_by_ekf.gif', writer='imagemagick')
     plot.show()
 
