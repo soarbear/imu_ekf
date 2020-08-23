@@ -5,7 +5,7 @@
 ![alt text](https://github.com/soarbear/imu_ekf/blob/master/principle_kalman.jpg)
 
 # Flow
-![alt text](https://github.com/soarbear/imu_ekf/blob/master/Extended_Kalman_Filter_Flowchart.jpg)
+![alt text](https://github.com/soarbear/imu_ekf/blob/master/Extended_Kalman_Filter_Flowchart_2.jpg)
 
 # x_roll only
 
