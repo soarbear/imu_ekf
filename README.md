@@ -1,11 +1,11 @@
 # Description
 6-axis IMU sensors fusion = 3-axis acceleration sensor + 3-axis gyro sensor fusion with EKF = Extended Kalman Filter.
+![alt text](https://github.com/soarbear/imu_ekf/blob/master/kalman_filter_principle.jpg)
 
 # Flow
 ![alt text](https://github.com/soarbear/imu_ekf/blob/master/Extended_Kalman_Filter_Flowchart_2.jpg)
 
 # x_roll only
-
 ![alt text](https://github.com/soarbear/imu_ekf/blob/master/imu_by_ekf_x_roll.gif)
 
 # y_pitch only
